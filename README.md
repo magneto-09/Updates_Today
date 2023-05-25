@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com//subh-cs/Silpo">
+    <img src="/assets/SilpoLogo.png" alt="Logo" width="200">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">Silpo</h3>
 
-## Available Scripts
+  <p align="center">
+    Experience the beauty of Santiniketan
+    <br />
+    <a href="https://github.com/subh-cs/Silpo"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://subh-shop.herokuapp.com">View Demo</a>
+    ·
+    <a href="https://github.com/subh-cs/Silpo/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/subh-cs/Silpo/issues">Request Feature</a>
+  </p>
+</div>
 
-In the project directory, you can run:
 
-### `npm start`
+Silpo is an e-commerce platform for buying arts in Bolpur, Santiniketan. It is built using the MERN stack (MongoDB, Express, React, and Node.js) and includes a customer panel, an admin panel, and a driver panel.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Customer Panel:
+  - Browse and search a catalog of products
+  - Add products to a shopping cart and place an order
+  - View order history and update personal information
 
-### `npm test`
+- Admin Panel:
+  - View and manage orders, customers, and other data
+  - Add, update, and delete products
+  - Track stock levels and reorder products as needed
+  - View and update customer information
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Driver Panel:
+  - View and manage deliveries
+  - Track delivery status and update it as needed
+  - Plan efficient routes for drivers
+  - Communicate with customers about delivery status and any issues that arise
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js
+- react.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js and npm (comes with Node)
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone this repository
+2. Navigate to the root directory and run `npm install` to install dependencies
+3. Create a `.env` file in the root directory with the following variables:
+   - `REACT_APP_newsapp`: to hide the apikey which is needed to fetch data from news API. 
+4. Run `npm run start` to start the development server
+5. The application will be running on `http://localhost:3000`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You can use any hosting provider or platform to deploy this application. Some popular options include:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Heroku
+- Netlify
