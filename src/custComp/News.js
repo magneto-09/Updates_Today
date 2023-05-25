@@ -165,7 +165,7 @@ export default class News extends Component {
 
         <h2 className={`my-3  text-center text-${this.props.color}`}>
           {" "}
-          NewsMonkey -{" "}
+          Updates Today -{" "}
           {this.props.category.charAt(0).toUpperCase() +
             this.props.category.slice(1)}{" "}
           Top Headlines of "{this.hashmap.get(this.props.country)}"
@@ -174,7 +174,7 @@ export default class News extends Component {
         <hr
           className={`my-3 text-${this.props.color}`}
           style={{
-            width: "52rem",
+            width: "64vw",
             margin: "0 auto 0",
             borderStyle: "hidden hidden solid",
             borderWidth: "0.5rem",
