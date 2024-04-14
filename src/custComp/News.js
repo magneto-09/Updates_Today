@@ -44,7 +44,7 @@ export default class News extends Component {
     this.setState({ loading: true });
 
     let response = await fetch(
-      `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=c591f87af0834cf890ebf9abbf26cac7&pageSize=${this.props.pageSize}&page=1`
+      `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&pageSize=${this.props.pageSize}&page=1`
     );
 
     // if response status is false then it will throw an error regarding status.
@@ -158,10 +158,11 @@ export default class News extends Component {
   // ********************************************************
 
   render() {
+    console.log(this.props);
+
     return (
       <div className="my-3">
         {/* ***********************************headline******************** */}
-
 
         <h2 className={`my-3  text-center text-${this.props.color}`}>
           {" "}

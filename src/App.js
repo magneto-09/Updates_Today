@@ -364,15 +364,7 @@ export default function App() {
 
         {/* saare category ko traverse krna ho gya */}
 
-
-    <Route exact path="/about" element={
-      <About></About>
-    }>
-
-
-
-    </Route>
-
+        <Route exact path="/about" element={<About></About>}></Route>
       </Routes>
     </div>
   );
