@@ -27,7 +27,7 @@ This project is a news website built using React.js and powered by the News API.
 
 1. Clone this repository
 2. Navigate to the root directory and run `npm install` to install dependencies
-3. Create a `.env` file in the project root directory and add your API key: 
+3. Create a `.env.local` file in the project root directory and add your API key: 
    - `REACT_APP_newsapp = your-api-key`
 4. Run `npm run start` to start the development server
 5. The application will be running on `http://localhost:3000`
